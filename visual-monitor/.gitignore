@@ -1,0 +1,5 @@
+.idea/*
+node_modules
+# Include only baseline images
+webdrivercss/*
+!webdrivercss/*.baseline.png
