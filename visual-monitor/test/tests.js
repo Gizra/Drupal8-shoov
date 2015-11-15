@@ -52,7 +52,7 @@ describe('Visual monitor testing', function() {
   it('should show the home page',function(done) {
     client
       .url(baseUrl)
-      .pause(2000)
+      .pause(10000)
       .webdrivercss(testName + '.homepage', {
         name: '1',
         screenWidth: selectedCaps == 'chrome' ? [320, 640, 960, 1200] : undefined,
